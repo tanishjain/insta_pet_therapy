@@ -14,6 +14,6 @@ You must have a `dogs` directory in the project root. The directory structure sh
     - `dog.1.png`
     - `...`
 
-The baseline model was originally trained on Google Colab. Therefore, the first cell may be deleted for reproduction. Additionally, the `dataroot` in the fourth cell may be modified with the correct path, i.e., the `dogs` directory.
+The baseline model was originally trained on Google Colab. Therefore, the first cell may be deleted for reproduction. Additionally, the `dataroot` in the fourth cell may be modified with the correct path to the `dogs` directory.
 
 The dataset, Kaggle Dogs vs. Cats dataset, can be downloaded from [here](https://www.kaggle.com/c/dogs-vs-cats/data). Remember to filter out only dog images for training the model.
