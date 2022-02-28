@@ -1,6 +1,6 @@
 # insta_pet_therapy
 
-Insta(nt) Pet Therapy repository for Stanford CS 236G. 
+Insta(nt) Pet Therapy repository for Stanford CS 236G. \\
 Related Instagram Page: [@logans_awesome_friends](https://www.instagram.com/logans_pawsome_friends/)
 
 ## Baseline Model (Milestone 1)
