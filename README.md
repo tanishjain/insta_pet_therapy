@@ -3,23 +3,28 @@
 Insta(nt) Pet Therapy repository for Stanford CS 236G. <br>
 Related Instagram Page: [@logans_pawsome_friends](https://www.instagram.com/logans_pawsome_friends/)
 
-## Baseline Model (Milestone 1)
+## Baseline Model
 
 Make sure you have the relevant packages installed, including PyTorch, numpy, and matplotlib.
 
-You must have a `dogs` directory in the project root. The directory structure should be as such:
+You must have a `dataroot` directory in the project root. The directory structure should be as such:
 
-- `dogs/`
+- `dataroot/`
   - `dogs/`
     - `dog.0.png`
     - `dog.1.png`
     - `...`
+  - `cats/`
+    - `cat.0.png`
+    - `cat.1.png`
+    - `...`
 
-The baseline model was originally trained on Google Colab. Therefore, the first cell may be deleted for reproduction. Additionally, the `dataroot` in the fourth cell may be modified with the correct path to the `dogs` directory.
+The baseline model was originally trained on Google Colab. Therefore, the first cell may be deleted for reproduction.
 
-The dataset, Kaggle Dogs vs. Cats dataset, can be downloaded from [here](https://www.kaggle.com/c/dogs-vs-cats/data). Remember to filter out only dog images for training the model.
+The dataset contains data from two datasets: (1) Kaggle Dogs vs. Cats dataset and (2) Cats and Dogs Breeds Classification Oxford Dataset. The Kaggle Dogs vs. Cats dataset can be downloaded from [here](https://www.kaggle.com/c/dogs-vs-cats/data). The Cats and Dogs Breeds Classification Oxford Dataset
+can be downloaded from [here](https://www.kaggle.com/zippyz/cats-and-dogs-breeds-classification-oxford-dataset).
 
-## BigGAN Model (Milestone 2)
+## BigGAN Model
 
 The improved model implementation relies on the excellent implementation of BigGAN pretrained on ImageNet by Brock et al. \[1\] provided [here](https://github.com/ajbrock/BigGAN-PyTorch). In addition to the packages installed for the baseline model, ensure you have tqdm, scipy, and h5py installed.
 
