@@ -40,7 +40,7 @@ Step 3. Run the fine-tune training script (BigGAN-PyTorch/fine_tune.sh) to resum
 
 The bash script for BigGAN will automatically run the evaluation code which records the Inception Score. However, this is not logged presently\*, and will need to be manually recorded from the console output. 
 
-The Instagram Engagement Score can be computed by running ies/score.py. You must specify the type of score (page-level or image-level), number of followers, number of likes, and number of comments as arguments. See code documentation for details.
+The Instagram Engagement Score can be computed by running ies/ies.py. You must specify the type of score (page-level or image-level), number of followers, number of likes, and number of comments inside the file. See code for details.
 
 \* = _will be updated in the future_
 
