@@ -36,6 +36,14 @@ Step 3. Run the fine-tune training script (BigGAN-PyTorch/finetune.sh) to resume
 
 **Note:** Finetuning the model and evaluation should work as expected. However, additional functionalities from the implementation by Brock et al. \[1\] may not work as expected due to my modifications. 
 
+### Evaluation
+
+The bash script for BigGAN will automatically run the evaluation code which records the Inception Score. However, this is not logged presently\*, and will need to be manually recorded from the console output. 
+
+The Instagram Engagement Score can be computed by running ies/score.py. You must specify the type of score (page-level or image-level), number of followers, number of likes, and number of comments as arguments. See code documentation for details.
+
+\* = _will be updated in the future_
+
 ### References 
 
 \[1\] Andrew Brock, Jeff Donahue, and Karen Simonyan. “Large scale GAN training for high fidelity natural image synthesis”. In: _arXiv preprint arXiv:1809.11096_ (2018)
