@@ -32,7 +32,7 @@ Step 1. Data preprocessing. Ensure that the data is stored in the same directory
 
 Step 2. To improve training time, I use a pretrained model by Brock et al. \[1\] which has been pretrained on ImageNet. The model checkpoint can be found [here](https://drive.google.com/open?id=1nAle7FCVFZdix2--ks0r5JBkFnKw8ctW).
 
-Step 3. Run the fine-tune training script (BigGAN-PyTorch/finetune.sh) to resume training the model with our dataset.
+Step 3. Run the fine-tune training script (BigGAN-PyTorch/fine_tune.sh) to resume training the model with our dataset.
 
 **Note:** Finetuning the model and evaluation should work as expected. However, additional functionalities from the implementation by Brock et al. \[1\] may not work as expected due to my modifications. 
 
